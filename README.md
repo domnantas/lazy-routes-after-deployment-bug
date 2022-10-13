@@ -13,9 +13,13 @@ and About (/about). About route is lazy-loaded. This causes an issue:
 It happens because `AboutView.vue` hash is different when changes are made it is
 deployed the second time.
 
-First deploy: ![Screenshot before](before.png)
+First deploy:
 
-Second deploy: ![Screenshot after](after.png)
+![Screenshot before](before.png)
+
+Second deploy:
+
+![Screenshot after](after.png)
 
 While this doesn't seem like a big deal, it is quite significant source of
 errors on large applications. One possible fix for this issue is to use
