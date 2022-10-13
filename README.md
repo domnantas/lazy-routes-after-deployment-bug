@@ -5,8 +5,7 @@ and About (/about). About route is lazy-loaded. This causes an issue:
 
 - Deploy site
 - Open Home route
-- Deploy site again (maybe make changes in About route)
+- Make changes to About.vue
+- Deploy site again
 - Click on the /about link
 - `Failed to fetch dynamically imported module` error will be thrown
-
-testing
